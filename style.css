@@ -1,0 +1,66 @@
+body{
+	position:relative;
+	background-color:white;
+	margin:11px;
+}
+main{
+	position:relative;
+}
+main h2{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:ridge 1px silver;
+	font-size:23px;
+}
+main p{
+	margin:10px;
+	border:0px;
+	padding:0px;
+	font-size:17px;
+	line-height:23px;
+	text-indent:29px;
+}
+main a{
+	border:0px;
+	padding:0px 0px 1px;
+}
+main a{
+	color:black;
+	text-decoration:none;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:dashed 1px silver;
+}
+
+main a:hover{
+	border-bottom:solid 1px black;
+	font-weight:bold;
+}
+
+footer{
+	position:relative;
+	margin:31px 0px 0px;
+	padding:20px;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+	border-top:groove 2px gray;
+	text-align:center;
+	font-size:17px;
+}
+header{
+	position:relative;
+	border:none;
+	text-align:center;
+	font-size:29px;
+}
+header h1{
+	font-size:29px;
+	padding:0px;
+	margin:19px;
+}
