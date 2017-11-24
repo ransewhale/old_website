@@ -7,7 +7,7 @@ body{
 main{
 	position:relative;
 }
-main h2{
+main h1{
 	margin:20px 0px 0px;
 	padding:0px;
 	width:100%;
@@ -62,12 +62,15 @@ header{
 	text-align:center;
 	font-size:29px;
 }
-header h1{
+header a{
+	display: block;
+	text-decoration: none;
 	font-size:29px;
 	padding:10px;
 	margin:19px;
 	font-weight:700;
 	border:solid 2px black;
+	color: black;
 }
 
 ul{

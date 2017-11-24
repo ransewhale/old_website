@@ -1,0 +1,45 @@
+body{
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+#input{
+	position: absolute;
+	margin: 0px;
+	padding: 10px;
+	width: 100%;
+	height: 180px;
+	resize: none;
+	font-size: 20px;
+	border: none;
+	border-top: none;
+	border-bottom: solid 2px black;
+	border-left: none;
+	border-right: none;
+}
+
+#input:focus{
+	border: none;
+	outline: none;
+}
+
+#output{
+	position: absolute;
+	margin: 0px;
+	padding: 10px;
+	width: 100%;
+	height: 180px;
+	top: 200px;
+	font-size: 30px;
+	resize: none;
+	overflow: scroll;
+	border-top: solid 2px black;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
