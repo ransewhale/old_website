@@ -1,7 +1,7 @@
 $(function(){
 
 function removeWrongChars(str){
-	var arr = "abgdDefkhH?xqi3lmnNpurRGsSXtcTvwjzZW \r\n".split('');
+	var arr = "abgdDefkhH?xqi3lmnñNpurRGsSXtcTvwjzZW \r\n".split('');
 	var data = str.split('');
 	var ret = "";
 	for(i=0; i<data.length; i++){
@@ -13,8 +13,8 @@ function removeWrongChars(str){
 }
 
 function latinToTifinagh(str){
-	var lat = "abgdDefkhH?xqi3lmnNpurRGsSXtcTvwjzZW \r\n".split('');
-	var tif = "ⴰⴱⴳⴷⴹⴻⴼⴽⵀⵃⵄⵅⵇⵉⵊⵍⵎⵏⵑⵒⵓⵔⵕⵖⵙⵚⵛⵜⵞⵟⵠⵡⵢⵣⵥⵯ".split('');
+	var lat = "abgdDefkhH?xqi3lmnñNpurRGsSXtcTvwjzZW \r\n".split('');
+	var tif = "ⴰⴱⴳⴷⴹⴻⴼⴽⵀⵃⵄⵅⵇⵉⵊⵍⵎⵏⵐⵑⵒⵓⵔⵕⵖⵙⵚⵛⵜⵞⵟⵠⵡⵢⵣⵥⵯ".split('');
 	tif.push("&nbsp;");
 	tif.push("<br />");
 	tif.push("<br />");
